@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1294.1 672.92">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#radial-gradient);
+      }
+
+      .cls-2 {
+        font-family: SixCaps, 'Six Caps';
+        font-size: 515px;
+        letter-spacing: .07em;
+      }
+    </style>
+    <radialGradient id="radial-gradient" cx="648.29" cy="330" fx="648.29" fy="330" r="330" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fdffaa"/>
+      <stop offset=".5" stop-color="#fffbb1"/>
+      <stop offset="1" stop-color="#fdffa7"/>
+    </radialGradient>
+  </defs>
+  <circle class="cls-1" cx="648.29" cy="330" r="330"/>
+  <text class="cls-2" transform="translate(0 545.68)"><tspan x="0" y="0">RentAfilM</tspan></text>
+</svg>

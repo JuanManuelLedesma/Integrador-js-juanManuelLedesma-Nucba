@@ -1,0 +1,90 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>INTEGRADOR JS - JUAN MANUEL LEDESMA - NUCBA</title>
+</head>
+<body>
+    <header>
+        <img src="./assets/logo/RentAfilm-logoA.svg" alt="Logo RentAfilm" class="logo">
+        <nav class="navbar">
+            <div class="menu-label">
+                <img src="./assets/icons/icons8-hamburger-64.png" alt="" class="menu-icon" />
+            </div>
+
+            <ul class="navbar-list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#info">Info</a></li>
+                <li><a href="#peliculas">Películas</a></li>
+                <li><a href="./login.html">Log In</a></li>
+               </ul> 
+            <img class="cart-icon cart-label" src="./assets/icons/cart-shopping-solid.svg" alt="">  <!--Cart Icon-->
+            <!--Cart html-->
+            <div class="cart">
+                <h2>Tus Películas</h2>
+                <div class="cart-container">
+
+                </div>
+                <div class="cart-total">
+                    <p>Total:</p>
+                    <span class="total">ARS: $0</span>
+                </div>
+                <div class="cart-btn">
+                    <button class="btn-buy">Comprar</button>
+                    <button class="btn-delete">Vaciar carrito</button>
+                </div>
+
+            </div>
+            <div class="overlay"></div>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-container">
+            <h1>DEL CINE A TU CASA</h1>
+            <p>Películas en 4K, idioma original y subtítulos en español. Tenemos los títulos que nadie tiene</p>
+        </div>
+        <img src="./assets/img/poster/dune.jpg" alt="Poster de Dune">
+    </section>
+    <section class="info" id="info">
+
+        <!--carousel-->
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="./assets/img/poster/casablanca.jpg" alt="Poster de Casa Blanca">
+            </div>
+            <div class="mySlides fade">
+                <img src="./assets/img/poster/chainsaw.jpg" alt="Poster de Chainsaw Massacre">
+            </div>
+            <div class="mySlides fade">
+                <img src="./assets/img/poster/naussicaa.jpg" alt="Poster de Nausicaa">
+            </div>
+        </div>
+        
+        <div class="info-container">
+            <h2>Cómo funciona</h2>
+            <p>Alquilas la película que quieras de nuestro catálogo y la tenes 48hs disponible para ver cuantas veces quieras.</p>
+        </div>
+    </section>
+    <section class="peliculas" id="peliculas">
+        <div class="categories">
+            <button class="category active" data-category="classic">&#128253; Clásicas</button>
+            <button class="category" data-category="cult">&#128083; Culto</button>
+            <button class="category" data-category="action">&#128299; Acción</button>
+            <button class="category" data-category="horror">&#128123; Terror</button>
+            <button class="category" data-category="comedy">&#129322; Comedia</button>
+            <button class="category" data-category="romance">&#128158; Romance</button>
+        </div>
+        <div class="peliculas-container">
+        </div>
+    </section>
+    <footer>
+        <img src="./assets/logo/RentAfilm-logoA.svg" alt="Logo RentAfilm" class="logo">
+    </footer>
+    <div class="add-modal"></div>
+    <script src="./assets/data.js"></script>
+    <script src="./assets/carousel.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>

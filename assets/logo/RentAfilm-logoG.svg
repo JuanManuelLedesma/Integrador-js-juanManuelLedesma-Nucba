@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1426.58 470">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: Monoton-Regular, Monoton;
+        font-size: 193px;
+        letter-spacing: .07em;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0" y1="235" x2="1425" y2="235" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ad9700"/>
+      <stop offset=".5" stop-color="#fffb55"/>
+      <stop offset="1" stop-color="#ad9700"/>
+    </linearGradient>
+  </defs>
+  <rect class="cls-2" width="1425" height="470" rx="160" ry="160"/>
+  <text class="cls-1" transform="translate(43.33 314.22)"><tspan x="0" y="0">RentAfilm</tspan></text>
+</svg>
