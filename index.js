@@ -226,11 +226,11 @@ const addPelicula = (e) => {
 
   const pelicula = createPeliculaData(id, name, price, poster);
 
-  //El producto exista en el carrito
+  //La pelicula existe en el carrito
   if (isExistingCartPelicula(pelicula)) {
     showSuccessModal("Esta película ya está en el carrito");
   } else {
-    //Que no exista el product
+    //no existe la película
     createCartPelicula(pelicula);
     showSuccessModal("La película se ha agregado al carrito");
   }

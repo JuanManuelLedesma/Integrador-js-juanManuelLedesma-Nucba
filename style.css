@@ -569,8 +569,7 @@ footer img{
         width: 40px;
         height: 40px;
         padding: 7px;
-      }
-  /* Mostramos el icono del menu */
+    }
   .menu-label {
     display: flex;
     cursor: pointer;
